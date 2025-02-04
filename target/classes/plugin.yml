@@ -1,0 +1,59 @@
+name: CoreLittle
+version: '1.0'
+main: fr.itmozlgends.coreLittle.CoreLittle
+api-version: '1.21'
+prefix: Core Little
+author: ItmozLegends
+description: CoreLittle
+commands:
+  broadcast:
+    description: Permet d'envoyer un message à tout les joueurs.
+  test:
+    description: C'est juste une commande de test.
+  op:
+    description: Permet de mettre opérateur un joueur.
+    permission: corelittle.op
+  deop:
+    description: Permet d'enlever les permitions d'admin d'un admin.
+    permission: corelittle.deop
+  stop:
+    description: Permet de stopper le serveur.
+    permission: corelittle.stop
+  freeze:
+    description: Gèle ou dégèle un joueur.
+    permission: corelittle.freeze
+  gm:
+    description: Changer de mode de jeu.
+  ban:
+    description: Permet de bannir un joueur.
+  offlineban:
+    description: Permet de bannir un joueur qui n'est pas connecté.
+  unban:
+    description: Permet de débannir un joueur.
+    permission: corelittle.unban
+  pardon:
+    description: Permet de débannir un joueur.
+    permission: corelittle.unban
+  help:
+    description: Permet d'avoir toutes les commandes du serveur.
+  reload:
+    description: Recharge tous les plugins du serveur.
+    permission: corelittle.reload
+  streammode:
+    description: Active le mode Stream.
+    permission: corelittle.stream
+  prout:
+    description: Permet de faire un prout...
+  vanish:
+    description: Permet de devenir invisible ou visible.
+    permission: corelittle.vanish
+  version:
+    description: Permet de voir la version du serveur, plugin, etc...
+  hat:
+    description: Permet de mettre un bloc sur sa tête.
+  skin:
+    description: Permet de changer de skin.
+  spawn-pet:
+    description: Permet de faire spawn un animal.
+  pet:
+    description: Permet de se transformer en animal.
