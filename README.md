@@ -1,4 +1,4 @@
-CoreLittle V1.0
+### CoreLittle V1.0
 
 CoreLittle est un plugin léger pour Minecraft qui vise à enrichir l'expérience de jeu avec des commandes simples et utiles pour les administrateurs et les joueurs.
 
