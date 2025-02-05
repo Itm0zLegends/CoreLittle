@@ -10,7 +10,6 @@ Permissions intégrées pour une gestion fine des accès.
 Le Main et les Commandes sont dans :
 
 - src/main/java/fr/itmozlegends/CoreLittle/Commands (les commandes)
-**ET**
 - src/main/java/fr/itmozlegends/CoreLittle/CoreLittle.java (le main)
 
 Liste des commandes de la **V1** :
