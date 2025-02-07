@@ -13,14 +13,14 @@ Le Main et les Commandes sont dans :
 - src/main/java/fr/itmozlegends/CoreLittle/CoreLittle.java (le main)
 
 Nouveauté de CoreLittle **V1.1** :
-Ajout de commandes pour construire (comme dans WorldEdit).
+- Ajout de commandes pour construire (comme dans WorldEdit).
 
 Liste des commandes de CoreLittle **V1.1** :
 
 🧱 Commandes pour les **Builders** :
-**/set** : Définit une région avec un matériau. (Des Petits Bugs)
-**/cut** : Permet d'enlever des blocs dans une région.
-**/undo** : Permet de revenir en arrière.
+- **/set** : Définit une région avec un matériau. (Des Petits Bugs)
+- **/cut** : Permet d'enlever des blocs dans une région.
+- **/undo** : Permet de revenir en arrière.
 
 Liste des commandes de **CoreLittle** :
 
