@@ -1,6 +1,6 @@
 ### CoreLittle V1.1
 
-CoreLittle est un plugin léger pour Minecraft qui vise à enrichir l'expérience de jeu avec des commandes simples et utiles pour les administrateurs et les joueurs.
+CoreLittle est un plugin léger pour Minecraft qui vise à enrichir l'expérience de jeu avec des commandes simples et utiles pour les administrateurs, les joueurs, les VIP, les Créateurs de Contenus et maintenant les Builders.
 
 Fonctionnalités principales :
 Gestion de commandes administratives et utilitaires pour les joueurs.
@@ -12,7 +12,17 @@ Le Main et les Commandes sont dans :
 - src/main/java/fr/itmozlegends/CoreLittle/Commands (les commandes)
 - src/main/java/fr/itmozlegends/CoreLittle/CoreLittle.java (le main)
 
-Liste des commandes de la **V1** :
+Nouveauté de CoreLittle **V1.1** :
+Ajout de commandes pour construire (comme dans WorldEdit).
+
+Liste des commandes de CoreLittle **V1.1** :
+
+🧱 Commandes pour les **Builders** :
+**/set** : Définit une région avec un matériau. (Des Petits Bugs)
+**/cut** : Permet d'enlever des blocs dans une région.
+**/undo** : Permet de revenir en arrière.
+
+Liste des commandes de **CoreLittle** :
 
 🔧 Commandes **Administratives** :
 - **/stop** : Permet de stopper le serveur (un cooldown de 10 secondes sera effectué pour dire aux joueurs que le serveur s'éteindra)
