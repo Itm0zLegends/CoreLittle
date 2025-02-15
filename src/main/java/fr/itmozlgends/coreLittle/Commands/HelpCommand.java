@@ -55,6 +55,7 @@ public class HelpCommand implements CommandExecutor {
             } else if (args[0].equalsIgnoreCase("admin")) {
                 if (sender.hasPermission("corelittle.helpadmin")) {
                     sender.sendMessage("§9-------- §eAide§9 des §eAdministrateurs§9 --------");
+                    sender.sendMessage("§l§9/§estaff§9 - Permet d'ouvrir une interface ulile pour les staffs.§rt");
                     sender.sendMessage("§9/§eop§9 <joueur> - Donner les permissions d'§eopérateur§9.");
                     sender.sendMessage("§9/§edeop§9 <joueur> - Retirer les permissions d'§eopérateur§9.");
                     sender.sendMessage("§9/§ewhitelist§9 <on|off> - Activer ou désactiver la §ewhitelist§9.");
@@ -68,6 +69,12 @@ public class HelpCommand implements CommandExecutor {
                     sender.sendMessage("§9/§eunban§9 - Permet de §edébannir§9 un joueur.");
                     sender.sendMessage("§9/§efreeze§9 - §eGele§9 ou §eDégele§9  un joueur.");
                     sender.sendMessage("§9/§ebroadcast§9 - Permet d'envoyer un §emessage§9 à tout les joueurs.");
+                    sender.sendMessage("§9/§etpm§9 - Permet de téléporter un joueur sur soi.");
+                    sender.sendMessage("§9/§esetrank§9 - Permet de changer le role d'un joueur.");
+
+                    sender.sendMessage("§9/§eset§9 - Définit une §erégion§9 avec un matériau.");
+                    sender.sendMessage("§9/§ecut§9 - Permet d'enlever des blocs dans une §erégion§9.");
+                    sender.sendMessage("§9/§eundo§9 - Permet de revenir en §earrière§9.");
                     sender.sendMessage("§9------------------------------------------");
                 } else {
                     sender.sendMessage("§9[§eCoreLittle§9] : Vous n'avez pas la §epermission§9 d'accéder à cette §esection§9 !");

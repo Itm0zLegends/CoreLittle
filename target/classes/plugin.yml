@@ -1,8 +1,8 @@
 name: CoreLittle
-version: '1.0'
+version: '1.2'
 main: fr.itmozlgends.coreLittle.CoreLittle
 api-version: '1.21'
-prefix: Core Little
+prefix: CoreLittle
 author: ItmozLegends
 description: CoreLittle
 commands:
@@ -57,3 +57,19 @@ commands:
     description: Permet de faire spawn un animal.
   pet:
     description: Permet de se transformer en animal.
+  restart:
+      description: Redémarre le serveur.
+      permission: corelittle.restart
+  set:
+    description: Définit une région avec un matériau.
+  cut:
+    description: Permet d'enlever des blocs dans une région.
+  undo:
+    description: Permet de revenir en arrière.
+  staff:
+    description: Permet d'ouvrir une interface pour les staffs.
+  tpm:
+    description: Permet de téléporter un joueur sur soi.
+    permission: corelittle.tpm
+  setrank:
+    description: Permet de changer le role d'un joueur.
