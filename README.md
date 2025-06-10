@@ -1,13 +1,13 @@
-### **CoreLittle V1.2 (1.21.4)**
+# **CoreLittle V1.2 (1.21.4)**
 
 CoreLittle est un plugin léger pour Minecraft qui vise à enrichir l'expérience de jeu avec des commandes simples et utiles pour les administrateurs, les joueurs, les VIP, les Créateurs de contenus, les builders, etc...
 
-Fonctionnalités principales :
+### Fonctionnalités principales :
 Gestion de commandes administratives et utilitaires pour les joueurs.
 Messages personnalisables pour une meilleure communication sur le serveur.
 Permissions intégrées pour une gestion fine des accès.
 
-Nouveauté de CoreLittle **V1.2** :
+### Nouveauté de CoreLittle **V1.2** :
 Ajout des Ranks (Personnalisable), D'un TabList (Personnalisable) et d'une commande pour les Administrateurs, Le /staff. Une interface moderne pour administrer un serveur ! (encore en développement)
 
 Le Main et les Commandes sont dans :
